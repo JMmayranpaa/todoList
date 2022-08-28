@@ -9,9 +9,7 @@ const Task = (props) => {
                 <Text style = {styles.itemText}>{props.text}</Text>
             </View>
             <View style = {styles.circular} >
-
-            </View>
-            
+            </View>         
         </View>
     )
 }
@@ -39,7 +37,6 @@ const styles = StyleSheet.create({
         opacity: 0.4,
         borderRadius: 5,
         marginRight: 15,
-
     },
     itemText: {
         maxWidth: '80%',
